@@ -82,8 +82,10 @@ Remember to change values of your template id, template name and auth token \
 Keep these variables at the top of your code, otherwise you may encounter an error.
 
 Remember to match Serial.begin(xxx) as it is in ini file, otherwise you code will not work. \
-![alt text](screenshots/image-21.png) - code \
-![alt text](screenshots/image-22.png) - ini file
+    - code \
+![alt text](screenshots/image-21.png)   \
+    - ini file \
+![alt text](screenshots/image-22.png)
 
 
 There may be some sort of lag / bug with setting colors of rgb - if you encounter it, reset rgb to (0,0,0) using app and then set your chosen color, it should fix it.
