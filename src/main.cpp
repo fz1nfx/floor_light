@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID   "TMPL4-VCDGDqL" // Id of template in Blynk
-#define BLYNK_TEMPLATE_NAME "Leds Panel" // Name of template in Blynk
-#define BLYNK_AUTH_TOKEN    "hscES1uxjzLC38lu2cE-LkbuugKL5ngK" // Auth token in Blynk
+#define BLYNK_TEMPLATE_ID   "XXXXX-XXXXXXX" // Id of template in Blynk
+#define BLYNK_TEMPLATE_NAME "XXXXXXX" // Name of template in Blynk
+#define BLYNK_AUTH_TOKEN    "XXXXXXXXXXX-XXXXXXXX" // Auth token in Blynk
 
 // Libraries
 
@@ -13,8 +13,8 @@
 #define NUM_PANELS 4 // Number of quaters of 1 panel
 #define MAX_BRIGHTNESS 100 
 
-const char* ssid = "Konfesjonal"; //Wifi Name xxxxxxx
-const char* pass = "x74mwu42"; //Wifi Pass xxxxxxx
+const char* ssid = "xxxxxxx"; //Wifi Name 
+const char* pass = "xxxxxxx"; //Wifi Pass 
 
 static constexpr int LED_PINS[NUM_PANELS] = {4, 0, 2, 15}; // Pins for cables of led bars 
 
