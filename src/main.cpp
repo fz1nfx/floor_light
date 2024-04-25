@@ -108,7 +108,9 @@ void setup() {
     }
   }
 
-  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass); // connection to app
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid,pass);
+  Blynk.config(BLYNK_AUTH_TOKEN); // connection to app
 
   scheduler.addTask(sensorsTask); // adding thread for managing sensors
   sensorsTask.enable(); // enabling thread for managing sensors
