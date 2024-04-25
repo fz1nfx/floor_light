@@ -8,6 +8,7 @@
 #include <FastLED.h>
 #include <TaskScheduler.h>
 #include <BlynkSimpleEsp32.h>
+#include <WiFi.h>
 
 #define NUM_LEDS_PER_PANEL 20 // Number of leds diods per panel - 1 panel will eventaully have 32 x 4 diodes
 #define NUM_PANELS 4 // Number of quaters of 1 panel
