@@ -99,3 +99,7 @@ Libraries have been used in the code: \
     -arkhipenko/TaskScheduler@^3.7.0 - TaskScheduler by Anatoli Arkhipenko \
     - blynkkk/Blynk@^1.3.2 - Blynk by Volodymyr Shymanskyy \
 ![alt text](screenshots/image-23.png) - ini file
+
+
+
+The file esp32.jpg provides a visual overview of where the individual cables are to be connected.
